@@ -1,7 +1,7 @@
 mjml
     //- Head
     mj-head
-        mj-title Annonce Poste Ref04
+        mj-title Let d'information AEPE - JUIN 2024
         mj-font(name='Roboto' href='https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')/
         mj-raw.
             <meta name="color-scheme" content="light"></meta>
@@ -9,21 +9,15 @@ mjml
         mj-attributes
             mj-all(Roboto, Arial, Helvetica, sans-serif)/
             mj-image(padding='0' border='none')/
-            mj-button(background-color='#BA4995' font-size='16px' line-height='20px' font-weight='500' text-transform='uppercase' inner-padding='15px 30px' border-radius='10px')/
+            mj-button(background-color='#BA4995' font-size='14px' line-height='20px' font-weight='400' text-transform='uppercase' inner-padding='5px 5px' border-radius='5px')/
         mj-style.
             .hover:hover td, .hover:hover a{
                 background-color: #684092 !important;
             }
     //- Body
     mj-body(background-color='#edf2f7')
-        //- Esa
-        block esa
-            include ../includes/_esa
-        //- entreprises
+        //- contenu
         block content
-        //- RArticle
-        block small
-            include ../includes/_small 
         //- footer adresse
         block adresse
             include ../includes/_adresse

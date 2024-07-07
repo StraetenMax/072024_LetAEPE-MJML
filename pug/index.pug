@@ -1,9 +1,5 @@
 extends templates/_layout
 block content
-        //- bandeau Esa
-        mj-section(padding='0')
-            mj-column(width='600px')
-                mj-image(alt='+40 postes à pourvoir en alternance chez nos entreprises partenaires' src='https://i.ibb.co/PmvMPfV/bandeau-Let.gif')/
         //- logo Ecosup Assurance
         mj-section(background-color='#ffffff' padding-bottom='0')
             mj-column(width='250px')
@@ -11,35 +7,30 @@ block content
         //- introduction à l'annonce et titre de l'annonce
         mj-section(background-color='#ffffff' padding-bottom='0')
             mj-column(width='500px')
-                mj-text(font-size='16px' font-weight='300' line-height='20px' color='#2D3748') #[strong {{contact.PRENOM}}] cette annonce correspond à ta recherche d'une alternance dans les métiers de l'assurance et de la banque.
-                mj-text(align='center' font-size='16px' font-weight='900' line-height='20px' color='#684092' text-transform='uppercase' padding-top='0' padding-bottom='0') #[span(style='color:#D30000;') Poste] à la une 
-                mj-text(align='center' font-size='36px' font-weight='300' line-height='40px' color='#684092') Assistant(e) Conseiller(ère) Commercial(e)
-        //- Entreprise Lieu Durée
-        mj-section(background-color='#ffffff' padding='0')
-            mj-column(width='50px')
-                mj-image(padding='10px 0' alt='Icon Entreprise' src='https://i.ibb.co/1GKXZN1/Entreprise04-Assurance.png')/
-            mj-column(width='450px')
-                mj-text(font-size='16px' line-height='20px' font-weight='400' color='#2D3748' align='left' padding-bottom='0') #[strong(style='color:#684092;text-transform:uppercase') Entreprise :] #[span(style='font-weight:700') Groupe d'Assurance Mutuelle français] propose d'intégrer l'équipe commerciale, d'assister les conseillers commerciaux de l'agence dans l'accueil du public et de réaliser des campagnes de relance afin d'organiser des rendez-vous clientèle.
-                mj-text(font-size='16px' line-height='20px' font-weight='400' color='#2D3748' align='left' padding-top='0' padding-bottom='0') #[strong(style='color:#684092;text-transform:uppercase') Lieu :] Métropole lilloise
-                mj-text(font-size='16px' line-height='20px' font-weight='400' color='#2D3748' align='left' padding-bottom='0' padding-top='0') #[strong(style='color:#684092;text-transform:uppercase') Durée :] 12 mois
+                mj-text(align='center' font-size='16px' font-weight='900' line-height='20px' color='#684092' text-transform='uppercase' padding-top='0' padding-bottom='0') Vous êtes titulaire d'un bep ou d'un cap ?
+                mj-text(align='center' font-size='36px' font-weight='300' line-height='40px' color='#684092') Optez pour le CAP Accompagnant(e) Éducatif Petite Enfance dans notre école ecosup santé à Tourcoing
         //- Mission
         mj-section(background-color='#ffffff')
-            mj-column(width='50px')
-                mj-image(padding='10px 0' alt='Icon mission' src='https://i.ibb.co/K7Q2WDH/Fusee04-Assurance.png')/
-            mj-column(width='450px')
-                mj-text(font-size='16px' line-height='20px' font-weight='400' color='#684092' text-transform='uppercase' align ='left' padding-top='0' padding-bottom='0') #[strong Missions :]
-                mj-text(font-size='16px' line-height='20px' font-weight='400' color='#2D3748' align='left' padding-top='0' padding-bottom='0')
-                    ul(style='margin-top:0;padding-left:8px;') 
-                        li Je rappelle les prospects ayant fait des demandes de devis sur internet,
-                        li Je relaye les <span style="font-weight:700;">opérations commerciales</span> de l'agence,
-                        li Je prends contact par SMS, mail et téléphone avec les clients pour fixer un rendez-vous avec un conseiller commercial,
-                        li Je suis le <span style="font-weight:700;">taux de transformation des leads</span>,
-                        li Je mets en place et suis la <span style="font-weight:700;">communication digitale de l'agence</span> (réseaux sociaux et site web de l'agence),
-                        li Je participe à l'<span style="font-weight:700;">organisation des événements de l'agence</span>,
-                        li Je réalise des rendez-vous client particulier et je leur propose les solutions les plus adaptées à leur besoin,
-                        li Je réponds <span style="font-weight:700;">aux demandes des clients</span> faites par mail, par téléphone ou via l'espace client,
-                        li J'effectue le <span style="font-weight:700;">suivi des clients de l'agence</span> : mise à jour des fiches clients(remédiation), je relance les impayés et rembourse les "trop perçus". 
-        //- call to action
-        mj-section(background-color='#ffffff' padding-top='0')
-            mj-column(width='500px')
-                mj-button(css-class='hover' href='https://ecosup-assurance.fr/assistant-conseiller-commercial/') Postule Maintenant
+            mj-column(width='100%' padding-left="50px" padding-right="50px")
+                mj-text(font-size='16px' line-height='20px' font-weight='700' color='#2D3748' align ='left' padding-top='0' padding-bottom='0') Formation en alternance pour les moins de 29 ans !
+                mj-text(font-size='16px' line-height='20px' font-weight='300' color='#2D3748' align ='left' padding-top='0' padding-bottom='0') Avec un rythme de 3 jours en entreprise et 2 jours en formation à l'école.
+                mj-text(font-size='16px' line-height='20px' font-weight='300' color='#2D3748' align ='left' padding-top='0' padding-bottom='0') Notre service dédié vous accompagne dans la recherche de votre entreprise d'accueil et vous conseillons !
+                mj-text(font-size='16px' line-height='20px' font-weight='700' color='#2D3748' align ='left' padding-bottom='0') Formation initiale ou continue pour les personnes agées de 17 à 55 ans !
+                mj-text(font-size='16px' line-height='20px' font-weight='300' color='#2D3748' align ='left' padding-top='0' padding-bottom='0') Ce format est proposé à toutes les personnes ne rentrant pas dans les critères d'un contrat d'apprentissage ou n'ayant pas trouvé d'entreprises en alternance. Vous effectuerez donc des stages durant l'année.
+                mj-text(font-size='16px' line-height='20px' font-weight='300' color='#2D3748' align ='left' padding-top='0' padding-bottom='0') Divers financement ou co-financement sont possibles (France Travail, région des Hauts de France...) sous condition de disposer minimum de 500 € sur son Compte Personnel de Formation.
+                mj-text(font-size='16px' line-height='20px' font-weight='700' color='#2D3748' align ='left' padding-bottom='0') Contactez-nous pour toutes questions sur la formation, le financement, l'école... Nous sommes là pour vous répondre !
+               
+        //- Images et bouton
+        mj-section(background-color='#ffffff' padding-top='0' padding-left='50px' padding-right='50px')
+            mj-column(width='33%' padding="10px")
+                mj-image(src='https://i.ibb.co/RbrCs5L/AEPEimg01.jpg',)
+                mj-spacer(height='20px')
+                mj-button(padding='0' css-class='hover' href='https://ecosup-assurance.fr/assistant-conseiller-commercial/') Découvrez notre formation
+            mj-column(width='33%' padding='10px')
+                mj-image(src='https://i.ibb.co/BPrN46F/AEPEimg02.jpg')
+                mj-spacer(height='20px')
+                mj-button(padding='0' css-class='hover' href='https://ecosup-assurance.fr/assistant-conseiller-commercial/') Postulez maintenant
+            mj-column(width='33%' padding='10px')
+                mj-image(src='https://i.ibb.co/wsbFb2F/AEPEimg03.jpg')
+                mj-spacer(height='20px')
+                mj-button(padding='0' css-class='hover' href='https://ecosup-assurance.fr/assistant-conseiller-commercial/') Demande d'information
