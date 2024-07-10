@@ -4,58 +4,70 @@
     <mj-title>Let d'information AEPE - JUIN 2024</mj-title>
     <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"/>
     <mj-raw>
-      <meta name="color-scheme" content="light"></meta>
-      <meta name="supported-color-schemes" content="light"></meta>
+      <meta name="color-scheme" content="light"/>
+      <meta name="supported-color-schemes" content="light"/>
+      <meta name="format-detection" content="telephone=no"/>
+      <meta name="format-detection" content="date=no"/>
+      <meta name="format-detection" content="address=no"/>
+      <meta name="format-detection" content="email=no"/>
+      
     </mj-raw>
     <mj-attributes>
       <mj-all Roboto="Roboto" Arial="Arial" Helvetica="Helvetica" sans-serif="sans-serif"/>
       <mj-image padding="0" border="none"/>
-      <mj-button background-color="#BA4995" font-size="14px" line-height="20px" font-weight="400" text-transform="uppercase" inner-padding="5px 5px" border-radius="5px"/>
+      <mj-button background-color="#1372b8" font-size="14px" line-height="20px" font-weight="400" text-transform="uppercase" inner-padding="5px 5px" border-radius="2px"/>
     </mj-attributes>
+    <mj-breakpoint width="500px"></mj-breakpoint>
     <mj-style>
       .hover:hover td, .hover:hover a{
-          background-color: #684092 !important;
+          background-color: #343f92 !important;
       }
     </mj-style>
   </mj-head>
   <mj-body background-color="#edf2f7">
-    <mj-section background-color="#ffffff" padding-bottom="0">
-      <mj-column width="250px">
-        <mj-image src="https://img.mailinblue.com/3403292/images/content_library/original/6631e75e524b5b6d34b88b1b.png" alt="Logo Ecosup Assurance"/>
+    <mj-section full-width="full-width" background-color="#1372b8" padding-bottom="0">
+      <mj-column>
+        <mj-image padding-left="25px" padding-right="25px" width="180px" align="left" src="https://i.ibb.co/HtG61w3/ECOSUPSante.png" alt="Logo Ecosup Santé"/>  
+        <mj-text align="left" font-size="16px" line-height="20px" font-weight="900" text-transform="uppercase" color="#2D3748">Newsletter Ecosup Santé | <span style="font-weight:300;color:#fefefe">Juillet 2024</span></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section full-width="full-width" background-color="#1372b8" padding="0">
+      <mj-column width="100%">
+        <mj-image src="https://i.ibb.co/s6Q5Q6K/AEPEimg.jpg" alt="Vous souhaitez entamer une reconversion professionnelle et vous former aux métiers de la petite enfance ?"/>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-bottom="0">
       <mj-column width="500px">
-        <mj-text align="center" font-size="16px" font-weight="900" line-height="20px" color="#684092" text-transform="uppercase" padding-top="0" padding-bottom="0">Vous êtes titulaire d'un bep ou d'un cap ?</mj-text>
-        <mj-text align="center" font-size="36px" font-weight="300" line-height="40px" color="#684092">Optez pour le CAP Accompagnant(e) Éducatif Petite Enfance dans notre école ecosup santé à Tourcoing</mj-text>
+        <mj-text align="center" font-size="18px" font-weight="700" line-height="22px" color="#2D3748" padding-top="0" padding-bottom="0">Vous êtes titulaire d'un <span style="text-transform:uppercase;">bep</span> ou d'un <span style="text-transform:uppercase;">cap</span> ?</mj-text>
+        <mj-text align="center" font-size="26px" font-weight="700" line-height="30px" color="#2D3748">Optez pour le <span style="color:#1372b8">CAP Accompagnant(e) Éducatif Petite Enfance</span> dans notre école <span style="text-transform:uppercase;">ecosup santé</span> à Tourcoing</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff">
-      <mj-column width="100%" padding-left="50px" padding-right="50px">
+      <mj-column width="500px">
         <mj-text font-size="16px" line-height="20px" font-weight="700" color="#2D3748" align="left" padding-top="0" padding-bottom="0">Formation en alternance pour les moins de 29 ans !</mj-text>
         <mj-text font-size="16px" line-height="20px" font-weight="300" color="#2D3748" align="left" padding-top="0" padding-bottom="0">Avec un rythme de 3 jours en entreprise et 2 jours en formation à l'école.</mj-text>
         <mj-text font-size="16px" line-height="20px" font-weight="300" color="#2D3748" align="left" padding-top="0" padding-bottom="0">Notre service dédié vous accompagne dans la recherche de votre entreprise d'accueil et vous conseillons !</mj-text>
         <mj-text font-size="16px" line-height="20px" font-weight="700" color="#2D3748" align="left" padding-bottom="0">Formation initiale ou continue pour les personnes agées de 17 à 55 ans !</mj-text>
         <mj-text font-size="16px" line-height="20px" font-weight="300" color="#2D3748" align="left" padding-top="0" padding-bottom="0">Ce format est proposé à toutes les personnes ne rentrant pas dans les critères d'un contrat d'apprentissage ou n'ayant pas trouvé d'entreprises en alternance. Vous effectuerez donc des stages durant l'année.</mj-text>
-        <mj-text font-size="16px" line-height="20px" font-weight="300" color="#2D3748" align="left" padding-top="0" padding-bottom="0">Divers financement ou co-financement sont possibles (France Travail, région des Hauts de France...) sous condition de disposer minimum de 500 € sur son Compte Personnel de Formation.</mj-text>
+        <mj-text font-size="16px" line-height="20px" font-weight="300" color="#2D3748" align="left" padding-top="0" padding-bottom="0">Divers <span style="font-weight:700;">financement</span> ou <span style="font-weight:700;">co-financement</span> sont possibles (France Travail, région des Hauts de France...) <span style="font-weight:700;">sous condition de disposer minimum de 500 € sur son Compte Personnel de Formation.</span></mj-text>
         <mj-text font-size="16px" line-height="20px" font-weight="700" color="#2D3748" align="left" padding-bottom="0">Contactez-nous pour toutes questions sur la formation, le financement, l'école... Nous sommes là pour vous répondre !</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0" padding-left="50px" padding-right="50px">
-      <mj-column width="33%" padding="10px">
-        <mj-image src="https://i.ibb.co/RbrCs5L/AEPEimg01.jpg"></mj-image>
+      <mj-column padding="10px">
+        <mj-image fluid-on-mobile="true" src="https://i.ibb.co/RbrCs5L/AEPEimg01.jpg" alt="Enfants réalisant des pas de gymnastique"></mj-image>
         <mj-spacer height="20px"></mj-spacer>
-        <mj-button padding="0" css-class="hover" href="https://ecosup-assurance.fr/assistant-conseiller-commercial/">Découvrez notre formation</mj-button>
+        <mj-button padding="0" width="100%" css-class="hover" href="https://ecosup-sante.fr/accompagnant-petite-enfance">Découvrez notre formation</mj-button>
       </mj-column>
-      <mj-column width="33%" padding="10px">
-        <mj-image src="https://i.ibb.co/BPrN46F/AEPEimg02.jpg"></mj-image>
+      <mj-column padding="10px">
+        <mj-image fluid-on-mobile="true" width="480px" src="https://i.ibb.co/BPrN46F/AEPEimg02.jpg" alt="Deux enfants entrain de jouer"></mj-image>
         <mj-spacer height="20px"></mj-spacer>
-        <mj-button padding="0" css-class="hover" href="https://ecosup-assurance.fr/assistant-conseiller-commercial/">Postulez maintenant</mj-button>
+        <mj-button padding="0" width="100%" css-class="hover" href="https://ecosup-sante.fr/procedure-de-candidature-2">Postulez maintenant</mj-button>
       </mj-column>
-      <mj-column width="33%" padding="10px">
-        <mj-image src="https://i.ibb.co/wsbFb2F/AEPEimg03.jpg"></mj-image>
+      <mj-column padding="10px">
+        <mj-image fluid-on-mobile="true" width="480px" src="https://i.ibb.co/wsbFb2F/AEPEimg03.jpg" alt="Jeux d'enfants dans une salle de jeux"></mj-image>
         <mj-spacer height="20px"></mj-spacer>
-        <mj-button padding="0" css-class="hover" href="https://ecosup-assurance.fr/assistant-conseiller-commercial/">Demande d'information</mj-button>
+        <mj-button padding="0" width="100%" css-class="hover" href="https://ecosup-sante.fr/demande-information">Demande d'information</mj-button>
       </mj-column>
     </mj-section>
     <mj-section padding-bottom="0">
@@ -64,6 +76,8 @@
         <mj-text font-size="12px" line-height="16px" font-weight="400" color="#2D3748" align="center" padding-top="0" padding-bottom="0">
           <div>17 place Charles et Albert Roussel</div>
           <div style="text-transform:uppercase">tourcoing</div>
+          <div><a style="color:#2D3748;text-decoration:none;font-weight:700;" href="tel:0320700606">Tél. 03.20.07.06.06</a></div>
+          <div><a style="color:#2D3748;text-decoration:none;" href="mailto:contact@ecosup-campus.fr">contact@ecosup-campus.fr</a></div>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -71,18 +85,17 @@
       <mj-column width="380px">
         <mj-social inner-padding="0 15px" icon-size="25px" mode="horizontal">
           <mj-social-element alt="icon Linkedin" src="https://img.mailinblue.com/3403292/images/content_library/original/660d6047d0d41f3120a8cdec.png" href="https://fr.linkedin.com/company/ecosup-campus"></mj-social-element>
-          <mj-social-element alt="icon Facebook" src="https://img.mailinblue.com/3403292/images/content_library/original/660d604fd0d41f3120a8cdf5.png" href="https://www.facebook.com/EcosupAssurance"></mj-social-element>
+          <mj-social-element alt="icon Facebook" src="https://img.mailinblue.com/3403292/images/content_library/original/660d604fd0d41f3120a8cdf5.png" href="https://www.facebook.com/EcosupCamp"></mj-social-element>
           <mj-social-element alt="icon Instagram" src="https://img.mailinblue.com/3403292/images/content_library/original/660d605a373b24d832a3970d.png" href="https://www.instagram.com/ecosup.campus"></mj-social-element>
-          <mj-social-element alt="icon Youtube" src="https://img.mailinblue.com/3403292/images/content_library/original/660d60657236a3846ef846ba.png" href="https://www.youtube.com/@EcoSupAssurance"></mj-social-element>
         </mj-social>
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column width="380px">
         <mj-text font-size="12px" line-height="16px" font-weight="400" color="#2D3748" align="center" padding-top="0" padding-bottom="0">
-          <div>Pour être sûr(e) de recevoir nos communications, ajoute <a style="text-decoration:none;color:#2D3748;" href="mailto:contact@ecosup-campus.fr">contact@ecosup-campus.fr</a> dans ton carnet d'adresses.</div>
-          <div><a style="text-decoration:none;color:#ffffff;" href="{{ mirror }}">Afficher dans ton navigateur web.</a></div>
-          <div><a style="text-decoration:none;color:#ffffff;text-transform:uppercase" href="{{ unsubscribe }}">se désinscrire.</a></div>
+          <div>Pour être sûr(e) de recevoir nos communications, ajoutez <a style="text-decoration:none;color:#2D3748;" href="mailto:contact@ecosup-campus.fr">contact@ecosup-campus.fr</a> dans votre carnet d'adresses.</div>
+          <div><a style="text-decoration:none;color:#343f92;" href="{{ mirror }}">Afficher dans votre navigateur web.</a></div>
+          <div><a style="text-decoration:none;color:#343f92;text-transform:uppercase" href="{{ unsubscribe }}">se désinscrire.</a></div>
         </mj-text>
         <mj-spacer height="30px"></mj-spacer>
       </mj-column>
